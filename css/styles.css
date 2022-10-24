@@ -23,6 +23,14 @@
 	background-color: var(--bacground-color);
 	font-size: 14px;
 }
+.container {
+	width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+	outline: 2px solid tomato;
+
+}
+
 .header {
 	background-color: var(--white-color);
 }
@@ -46,6 +54,8 @@
 }
 ul {
 	list-style: none;
+	padding: 0;
+	margin: 0;
 }
 /* site-nav */
 .header-nav {
@@ -83,6 +93,8 @@ ul {
 
 /* герой */
 .hero-title {
+	margin-top: 0;
+	margin-bottom: 30px;
 	color: var(--white-color);
 	font-weight: 900;
 	font-size: 44px;
@@ -90,17 +102,30 @@ ul {
 	text-align: center;
 	letter-spacing: 0.06em;
 	text-transform: uppercase;
+
 }
 .hero {
+	outline: 2px solid tomato;
+	text-align: center;
 	background-color: var(--background-footer);
 }
-
+h1,
+h2,
+h3 {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+p {
+	margin-top: 0;
+	margin-bottom: 0;
+}
 /* секції */
 .section-title {
 	color: var(--title-color);
 	font-weight: 700;
 	font-size: 36px;
 	line-height: 1.17;
+	padding-bottom: 50px;
 }
 .visually-hidden {
 	position: absolute;
@@ -119,9 +144,11 @@ ul {
 	font-weight: 700;
 	line-height: 1.14;
 	text-transform: uppercase;
+	padding-bottom: 10px;
 }
 .peculiarities-text {
 	line-height: 1.71;
+
 }
 /* секція наша команда */
 .member-name {
@@ -180,7 +207,7 @@ ul {
 
 /* Кнопка */
 .button-main {
-	color: var(--white-color);
+	color: var(--backgroung-team);
 	background-color: var(--accent-color);
 	font-family: inherit;
 	font-weight: 700;
@@ -188,6 +215,9 @@ ul {
 	line-height: 1.88;
 	letter-spacing: 0.06em;
 	cursor: pointer;
+	border-radius: 4px;
+	padding: 10px 32px;
+	
 }
 .button-main:hover,
 .button:focus,
@@ -203,6 +233,8 @@ ul {
 	line-height: 1.62;
 	letter-spacing: 0.03em;
 	cursor: pointer;
+	border-radius: 4px;
+	padding: 6px 22px;
 }
 
 .button-secondary:focus,
