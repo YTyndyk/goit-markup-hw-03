@@ -25,6 +25,8 @@
 }
 .container {
 	width: 1200px;
+	padding-right: 15px;
+	padding-left: 15px;
 	margin-left: auto;
 	margin-right: auto;
 	outline: 2px solid tomato;
@@ -49,6 +51,7 @@
 .logo-header {
 	color: var(--title-color);
 }
+/* reset start */
 .link {
 	text-decoration: none;
 }
@@ -57,6 +60,20 @@ ul {
 	padding: 0;
 	margin: 0;
 }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+.images {
+	display: block;
+}
+/* reset end */
 /* site-nav */
 .header-nav {
 	background-color: var(--white-color);
@@ -109,23 +126,14 @@ ul {
 	text-align: center;
 	background-color: var(--background-footer);
 }
-h1,
-h2,
-h3 {
-	margin-top: 0;
-	margin-bottom: 0;
-}
-p {
-	margin-top: 0;
-	margin-bottom: 0;
-}
+
 /* секції */
 .section-title {
 	color: var(--title-color);
 	font-weight: 700;
 	font-size: 36px;
 	line-height: 1.17;
-	padding-bottom: 50px;
+	margin-bottom: 50px;
 }
 .visually-hidden {
 	position: absolute;
@@ -144,10 +152,11 @@ p {
 	font-weight: 700;
 	line-height: 1.14;
 	text-transform: uppercase;
-	padding-bottom: 10px;
+	margin-bottom: 10px;
 }
 .peculiarities-text {
 	line-height: 1.71;
+	width: 270px;
 
 }
 /* секція наша команда */
@@ -186,14 +195,19 @@ p {
 	font-weight: 700;
 	font-size: 26px;
 	line-height: 1.19;
+	margin-bottom: 20px;
+
 }
 .footer-contacts {
 	font-style: normal;
 	line-height: 1.71;
+
 }
 .adress {
 	color: var(--white-color);
 	line-height: 1.71;
+	margin-bottom: 9px;
+
 }
 .adress:hover {
 	color: var(--accent-color);
@@ -215,8 +229,10 @@ p {
 	line-height: 1.88;
 	letter-spacing: 0.06em;
 	cursor: pointer;
+	min-width: 216px;
 	border-radius: 4px;
 	padding: 10px 32px;
+	border: 0;
 	
 }
 .button-main:hover,
