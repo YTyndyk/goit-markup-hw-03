@@ -188,6 +188,7 @@ p {
     color: var(--accent-color);
 }
 .logo-footer {
+	display: inline-block;
 	background-color: var(--background-footer);
 	color: var(--accent-color);
 	font-family: "Raleway", sans-serif;
@@ -207,7 +208,7 @@ p {
 	color: var(--white-color);
 	line-height: 1.71;
 	margin-bottom: 9px;
-
+display: inline-block;
 }
 .adress:hover {
 	color: var(--accent-color);
@@ -217,6 +218,8 @@ p {
 }
 .color-item {
 	color: rgba(255, 255, 255, 0.6);
+	margin-bottom: 9px;
+	display: inline-block;
 }
 
 /* Кнопка */
