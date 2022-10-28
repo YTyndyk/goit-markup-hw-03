@@ -29,7 +29,7 @@
 	padding-left: 15px;
 	margin-left: auto;
 	margin-right: auto;
-	outline: 2px solid tomato;
+	
 
 }
 
@@ -80,6 +80,7 @@ p {
 /* site-nav */
 .header-container {
 	display: flex;
+	border-bottom: 1px solid #ECECEC;;
 }
 .header-nav {
 	display: flex;
@@ -154,7 +155,6 @@ margin-left: 50px;
 
 }
 .hero {
-	outline: 2px solid tomato;
 	text-align: center;
 	background-color: var(--background-footer);
 }
@@ -204,6 +204,7 @@ margin-left: 50px;
 	line-height: 1.71;
 	width: 270px;
 
+
 }
 /* work */
 .work-container {
@@ -221,25 +222,31 @@ margin-left: 50px;
 	display: flex;
 	flex-wrap: wrap;
 	margin: -15px;
+	background: var(--backgroung-team);
 }
 .member-element {
-	width: 270px;
+width: 270px;
 margin: 15px;
+}
+.member-element:last-child {
+margin-left: 0;
 }
 .member-name {
 	font-weight: 500;
 	line-height: 1.19;
 	text-align: center;
+	margin-bottom: 10px;
 }
 .profesion {
 	color: var(--primary-text-color);
 	font-size: 16px;
 	line-height: 1.19;
 	text-align: center;
+
 }
 .section-team {
 	color: var(--title-color);
-	background: var(--backgroung-team);
+	
 }
 /* підвал */
 .footer {
@@ -336,8 +343,9 @@ display: inline-block;
 }
 /* Портфоліо */
 .filter {
-	display: flex;
+display: flex;
 justify-content: center;
+margin-bottom: 50px;
 }
 .filter-list {
 	margin-right: 8px;
@@ -345,12 +353,26 @@ justify-content: center;
 .filter-list:last-child {
 	margin-right: 0;
 }
+.card-set {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 30px;
+}
+.card {
+	flex-basis: calc((100% - 60px) / 3);
+}
+.wrapper {
+	padding: 20px 24px 20px 24px;
+	border: 1px solid #EEEEEE;
+	border-top: 0;
+}
 .title-portfolio {
 	color: var(--title-color);
 	font-weight: 700;
 	font-size: 18px;
 	line-height: 2;
 	letter-spacing: 0.06em;
+	margin-bottom: 4px;
 }
 .projects-item {
 	color: var(--primary-text-color);
