@@ -82,6 +82,8 @@ p {
 	display: flex;
 }
 .header-nav {
+	display: flex;
+	align-items: center;
 	background-color: var(--white-color);
 }
 .site-nav {
@@ -115,6 +117,7 @@ p {
 }
 .contact-nav {
 	display: flex;
+	margin: auto;
 }
 .contacts-nav-item:last-child {
 margin-left: 50px;
@@ -161,12 +164,16 @@ margin-left: 50px;
 	padding-top: 94px;
 	padding-bottom: 94px;
 }
+.peculiarities-container {
+	display: flex;
+}
 .section-title {
 	color: var(--title-color);
 	font-weight: 700;
 	font-size: 36px;
 	line-height: 1.17;
 	margin-bottom: 50px;
+	text-align: center;
 }
 .visually-hidden {
 	position: absolute;
@@ -187,12 +194,38 @@ margin-left: 50px;
 	text-transform: uppercase;
 	margin-bottom: 10px;
 }
+.peculiarities-list {
+	margin-right: 30px;
+}
+.peculiarities-list:last-child {
+	margin-right: 0;
+}
 .peculiarities-text {
 	line-height: 1.71;
 	width: 270px;
 
 }
+/* work */
+.work-container {
+	display: flex;
+}
+.work-img {
+	margin-right: 30px;
+}
+.work-img:last-child {
+	margin-right: 0;
+}
+
 /* секція наша команда */
+.team-container {
+	display: flex;
+	flex-wrap: wrap;
+	margin: -15px;
+}
+.member-element {
+	width: 270px;
+margin: 15px;
+}
 .member-name {
 	font-weight: 500;
 	line-height: 1.19;
@@ -302,6 +335,16 @@ display: inline-block;
 	color: var(--white-color);
 }
 /* Портфоліо */
+.filter {
+	display: flex;
+justify-content: center;
+}
+.filter-list {
+	margin-right: 8px;
+}
+.filter-list:last-child {
+	margin-right: 0;
+}
 .title-portfolio {
 	color: var(--title-color);
 	font-weight: 700;
