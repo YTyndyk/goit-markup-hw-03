@@ -144,7 +144,7 @@ margin-left: 50px;
 /* герой */
 .hero-title {
 	margin-top: 0;
-	margin-bottom: 30px;
+		margin-bottom: 30px;
 	color: var(--white-color);
 	font-weight: 900;
 	font-size: 44px;
