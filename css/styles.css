@@ -324,7 +324,7 @@ display: inline-block;
 }
 .button-secondary {
 	color: var(--title-color);
-	background-color: var(--white-color);
+	background-color: var(--backgroung-team);
 	font-family: inherit;
 	font-weight: 500;
 	font-size: 16px;
@@ -333,6 +333,7 @@ display: inline-block;
 	cursor: pointer;
 	border-radius: 4px;
 	padding: 6px 22px;
+	border-color: transparent;
 }
 
 .button-secondary:focus,
