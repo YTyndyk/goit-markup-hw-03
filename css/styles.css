@@ -37,6 +37,7 @@
 	background-color: var(--white-color);
 }
 .logo.link {
+	margin-right: 93px;
 	color: var(--accent-color);
 	font-family: "Raleway",sans-serif;
 	font-weight: 700;
@@ -72,13 +73,31 @@ p {
 }
 .images {
 	display: block;
+	max-width: 100%;
+	height: auto;
 }
 /* reset end */
 /* site-nav */
+.header-container {
+	display: flex;
+}
 .header-nav {
 	background-color: var(--white-color);
 }
+.site-nav {
+	display: flex;
+}
+.site-nav-item {
+	margin-right: 50px;
+}
+.site-nav-item:last-child {
+	margin-right: 0;
+}
 .site-nav-link{
+	display: block;
+	padding-top: 32px;
+	padding-bottom: 32px;
+
 	color: var(--title-color);
 	font-weight: 500;
 	line-height: 1.14;
@@ -94,7 +113,17 @@ p {
 .site-nav-link.current {
 	color: var(--accent-color);
 }
+.contact-nav {
+	display: flex;
+}
+.contacts-nav-item:last-child {
+margin-left: 50px;
+}
 .contacts-nav-link {
+    display: block;
+	padding-top: 32px;
+	padding-bottom: 32px;
+
 	color: var(--primary-text-color);
 	font-weight: 500;
 	line-height: 1.14;
@@ -208,10 +237,15 @@ p {
 	line-height: 1.71;
 
 }
+.footer-contacts-item:last-child {
+	margin-bottom: 0;
+}
+.footer-contacts-item {
+	margin-bottom: 9px;
+}
 .adress {
 	color: var(--white-color);
 	line-height: 1.71;
-	margin-bottom: 9px;
 display: inline-block;
 }
 .adress:hover {
@@ -220,11 +254,12 @@ display: inline-block;
 .adress:focus {
 	color: var(--focus-color);
 }
+
 .color-item {
 	color: rgba(255, 255, 255, 0.6);
-	margin-bottom: 9px;
 	display: inline-block;
 }
+
 
 /* Кнопка */
 .button-main {
